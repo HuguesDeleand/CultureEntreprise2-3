@@ -14,3 +14,7 @@ $ docker-compose up
 ### 3- Accéder à WordPress
 Taper la commande `docker ps`, repérer l'image `wordpress:latest` et copier le `CONTAINER ID` correspondant. Lancer `docker inspect CONTAINER ID`. Dans la rubrique "Networks", le champ "IPAddress" indique l'IP permettant d'accéder à l'interface de WordPress.
 
+Version de docker : `Docker version 17.06.2-ce, build cec0b72`
+
+Version de docker-compose : `docker-compose version 1.16.1, build 6d1ac21`
+
